@@ -21,7 +21,9 @@ If you already have a registered product that you can use for testing, feel free
 ## Setup and run
 
 1. Pull source
+```
 git clone https://github.com/roykang75/avs-device-sdk-for-hally.git
+```
 
 2. Update config.txt with the Client ID, Client Secret, and Product ID for your registered product and save.
 3. Run the setup script with your configuration as an argument:
