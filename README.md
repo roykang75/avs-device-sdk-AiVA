@@ -32,23 +32,23 @@ $ sudo shutdown -r
 ```
 2. Pull avs-sdk-setup source
 ```
-git clone https://github.com/roykang75/avs-device-sdk-for-hally.git
+$ git clone https://github.com/roykang75/avs-device-sdk-for-hally.git
 ```
 
 3. Update config.txt with the Client ID, Client Secret, and Product ID for your registered product and save.
 4. Run the setup script with your configuration as an argument:
 ```
-sudo bash setup.sh config.txt
+$ sudo bash setup.sh config.txt
 ```
 5. After the setup script has finished running, you'll need to generate an authorization token. Run this command, and open your browser and navigate to http://localhost:3000. Log in with your Amazon credentials and follow the instructions provided:
 ```
-sudo bash startauth.sh
+$ sudo bash startauth.sh
 ```
 6. Last and most importantly, let's run the sample app:
 ```
-sudo bash startsample.sh
+$ sudo bash startsample.sh
 ```
 7. You can also run integration and unit tests:
 ```
-sudo bash test.sh
+$ sudo bash test.sh
 ```
