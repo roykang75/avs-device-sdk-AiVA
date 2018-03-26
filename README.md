@@ -12,7 +12,7 @@ https://github.com/alexa/avs-device-sdk
 
 ## Register a product
 
-Before we get started, you'll need to register a device and create a security profile at developer.amazon.com. Click here for step-by-step instructions.
+Before we get started, you'll need to register a device and create a security profile at developer.amazon.com. [Click here](https://github.com/alexa/alexa-avs-sample-app/wiki/Create-Security-Profile) for step-by-step instructions.
 
 IMPORTANT: The allowed origins under web settings should be http://localhost:3000 and https://localhost:3000. The return URLs under web settings should be http://localhost:3000/authresponse and https://localhost:3000/authresponse.
 
