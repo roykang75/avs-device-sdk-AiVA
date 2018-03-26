@@ -23,8 +23,14 @@ IMPORTANT: The allowed origins under web settings should be http://localhost:300
 If you already have a registered product that you can use for testing, feel free to skip ahead
 
 ## Setup and run
-
-1. Pull source
+1. Update the installed image
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade
+$ sudo shutdown -r
+```
+1. Pull avs-sdk-setup source
 ```
 git clone https://github.com/roykang75/avs-device-sdk-for-hally.git
 ```
