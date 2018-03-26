@@ -5,7 +5,7 @@ Hally Audio Board is made by WizIoT.
 
 Raspberry Pi connect with Hally Audio Board using Micro USB cable.
 
-![](/assets/rpi3_hally.png.png)
+![](/assets/rpi3_hally.png)
 
 Detail description is below:  
 https://github.com/alexa/avs-device-sdk
