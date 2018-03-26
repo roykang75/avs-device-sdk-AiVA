@@ -46,10 +46,10 @@ START_AUTH_SCRIPT="$INSTALL_BASE/startauth.sh"
 TEST_SCRIPT="$INSTALL_BASE/test.sh"
 LIB_SUFFIX="a"
 
-echo "################################################################################"
-echo "Change default audio configuration to Hally Audio Board"
-echo "################################################################################"
-echo "blacklist snd_bcm2835" | sudo tee -a /etc/modprobe.d/raspi-blacklist.conf
+#echo "################################################################################"
+#echo "Change default audio configuration to Hally Audio Board"
+#echo "################################################################################"
+#echo "blacklist snd_bcm2835" | sudo tee -a /etc/modprobe.d/raspi-blacklist.conf
 
 get_platform() {
   uname_str=`uname -a`

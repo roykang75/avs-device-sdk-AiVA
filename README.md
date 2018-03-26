@@ -32,6 +32,7 @@ If you already have a registered product that you can use for testing, feel free
 $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get dist-upgrade
+$ echo "blacklist snd_bcm2835" | sudo tee -a /etc/modprobe.d/raspi-blacklist.conf
 $ sudo shutdown -r
 ```
 2. Pull avs-sdk-setup source
