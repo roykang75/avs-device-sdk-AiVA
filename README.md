@@ -9,6 +9,10 @@ https://github.com/alexa/avs-device-sdk
 ## Required hardware
 
 1. Raspberry Pi 3 (Recommended) or Pi 2 Model B (Supported)
+2. Raspberry Pi (Raspbian Stretch - Raspberry Pi Software Guide(https://www.raspberrypi.org/learning/software-guide/))
+3. After install Raspbian, turn on SSH
+   > Raspbian Menu > Preference >  Raspberry Pi Configuration > Select Interfaces Tab > SSH is enable.
+4. Raspbian ID and Password: pi / raspberry
 
 ## Register a product
 
