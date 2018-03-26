@@ -3,6 +3,10 @@
 This is avs-device-sdk for Hally Audio Board.  
 Hally Audio Board is made by WizIoT.  
 
+Raspberry Pi connect with Hally Audio Board using Micro USB cable.
+
+![](/assets/rpi3_hally.png.png)
+
 Detail description is below:  
 https://github.com/alexa/avs-device-sdk
 
