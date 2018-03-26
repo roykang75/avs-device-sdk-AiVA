@@ -30,25 +30,25 @@ $ sudo apt-get upgrade
 $ sudo apt-get dist-upgrade
 $ sudo shutdown -r
 ```
-1. Pull avs-sdk-setup source
+2. Pull avs-sdk-setup source
 ```
 git clone https://github.com/roykang75/avs-device-sdk-for-hally.git
 ```
 
-2. Update config.txt with the Client ID, Client Secret, and Product ID for your registered product and save.
-3. Run the setup script with your configuration as an argument:
+3. Update config.txt with the Client ID, Client Secret, and Product ID for your registered product and save.
+4. Run the setup script with your configuration as an argument:
 ```
 sudo bash setup.sh config.txt
 ```
-4. After the setup script has finished running, you'll need to generate an authorization token. Run this command, and open your browser and navigate to http://localhost:3000. Log in with your Amazon credentials and follow the instructions provided:
+5. After the setup script has finished running, you'll need to generate an authorization token. Run this command, and open your browser and navigate to http://localhost:3000. Log in with your Amazon credentials and follow the instructions provided:
 ```
 sudo bash startauth.sh
 ```
-4. Last and most importantly, let's run the sample app:
+6. Last and most importantly, let's run the sample app:
 ```
 sudo bash startsample.sh
 ```
-5. You can also run integration and unit tests:
+7. You can also run integration and unit tests:
 ```
 sudo bash test.sh
 ```
