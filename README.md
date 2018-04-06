@@ -1,9 +1,9 @@
-# Raspberry Pi Quick Start Guide with Script for Hally Audio Board
+# Raspberry Pi Quick Start Guide with Script for AiVA Board
 
-This is avs-device-sdk for Hally Audio Board.  
-Hally Audio Board is made by WizIoT.  
+This is avs-device-sdk for AiVA Board.  
+AiVA Board is made by WizeIoT.  
 
-Raspberry Pi connect with Hally Audio Board using Micro USB cable.
+Raspberry Pi connect with AiVA Board using Micro USB cable.
 
 ![](/assets/rpi3_hally.png)
 
