@@ -89,7 +89,7 @@ echo "##########################################################################
 echo "################################################################################"
 echo ""
 echo ""
-echo "AVS Device SDK Raspberry Pi Script - Terms and Agreements"
+echo "AVS Device SDK Raspberry Pi and Dragon Board 410c Script - Terms and Agreements"
 echo ""
 echo ""
 echo "The AVS Device SDK is dependent on several third-party libraries, environments, "
