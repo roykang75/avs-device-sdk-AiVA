@@ -60,6 +60,9 @@ get_platform() {
   elif [[ "$uname_str" ==  "MINGW64"* ]]
   then
     result="mingw64"
+  elif [[ "$uname_str" =~  "qcom"* ]]
+  then
+    result="db410c"
   else
     result=""
   fi
@@ -74,6 +77,9 @@ then
 elif [ "$PLATFORM" == "mingw64" ]
 then
   source mingw.sh
+elif [ "$PLATFORM" == "db410c" ]
+then
+  source db410c.sh  
 else
   echo "The installation script doesn't support current system. (System: $(uname -a))"
   exit 1
