@@ -287,12 +287,3 @@ EOF
 
 echo " **** Completed Configuration/Build ***"
 
-echo " **** System reboot (yes) ***"
-
-read input
-input=$(echo $input | awk '{print tolower($0)}')
-if [ $input == 'yes' ]
-then
-  sudo shutdown -r
-else
-fi
